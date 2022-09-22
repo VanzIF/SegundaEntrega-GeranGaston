@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #533483;
+    background-attachment: fixed;
+    padding: 50px 30px 20px 60px;
+    margin-left: 50px;
+    background-image: url(/assets/backgroundimage.jpg)
+    }
+p{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    line-height: 1.6;
+}
+section{
+    padding: 50px 50px 50px 50px;
+    margin-left: 20px;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    font-style: bold;
+}
+h3{
+    text-align: center;
+    font-style: bold;
+
+}
+h5{
+    text-align: justify;
+    font-weight: bold;
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 5px, auto, auto, 5px;
+    padding: 12px, 12px, 12px, 12px;
+    text-align: left;
+}
+.menu {
+    font-weight: bolder;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    background-color: #afb4ff;
+    text-align: right;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #b2a4ff;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+.menu li:hover{
+    background-color: aliceblue;
+    color: #533483;
+    border-radius: 10px;
+}
+nav{
+    text-align: center;
+}
+footer{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #afb4ff;
+}
+.contactos{
+    padding: 5px;
+    margin: 5px;
+}
+.up{
+    text-align: right;
+}
