@@ -16,6 +16,12 @@ body{
     width: 100%;
     text-align: center;
 }
+h2 {
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+}
+
 h3 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -38,4 +44,56 @@ h3 {
 }
 #galeria img:hover {
     border: 5px solid #f7f7f7;
+}
+.pie-pagina {
+    width: 100%;
+    background-color: #6f42c1;
+}
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box h2 {
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.pie-pagina .grupo-1 .box p {
+    color: grey;
+    margin-bottom: 10px;
+}
+#nosotros .col-4 {
+    margin: 0 ;
+    padding: 25px;
+}
+#nosotros img{
+    width: 100%;
+}
+#nosotros img:hover {
+    border: 5px solid #f7f7f7;
+}
+#index img {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+#index img:hover {
+    border: 5px solid #f7f7f7;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
 }
